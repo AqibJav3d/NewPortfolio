@@ -14,8 +14,12 @@ const Skills = () => {
         <hr className={classes.hr2} />
       </div>
       <div className={classes.progressBars}>
-        <Progress data={ProfessionalSkills} title="Professional Skills" />
-        <Progress data={TechnicalSkills} title="Technical Skills" />
+        <div className={classes.containerBg}>
+          <Progress data={ProfessionalSkills} title="Professional Skills" />
+        </div>
+        <div className={classes.containerBg}>
+          <Progress data={TechnicalSkills} title="Technical Skills" />
+        </div>
       </div>
     </div>
   );

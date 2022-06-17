@@ -52,6 +52,10 @@ export const Unit = ({ data, percentage, skill }) => {
 };
 
 const useStyles = makeStyles(() => ({
+  skills: {
+    background: " #252A2E",
+    padding: "30px",
+  },
   skill: {
     display: " flex",
     flexDirection: "column",

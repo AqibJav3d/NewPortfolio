@@ -56,9 +56,19 @@ export const useStyles = makeStyles((theme) => ({
       alignItems: "center",
       gap: "30px",
     },
+    "& Progress": {
+      background: " #252A2E",
+      padding: "30px",
+    },
+  },
+  containerBg: {
+    background: " #252A2E",
+    padding: "30px",
+    borderRadius: 10,
   },
   Skills: {
     maxWidth: "41.66666%",
+
     "& h4": {
       fontSize: 28,
       lineHeight: "30px",
