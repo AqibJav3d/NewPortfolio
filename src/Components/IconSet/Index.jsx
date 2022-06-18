@@ -1,17 +1,22 @@
 import React from "react";
-import { Icon, makeStyles } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core";
 
-const Unit = ({ icon, link }) => {
+const Unit = ({ icons, link }) => {
   const classes = useStyles();
-  <li className={classes.icon}>
-    <a href={link}>
-      <icon>{icon}</icon>
-    </a>
-  </li>;
+
+  return (
+    <li className={classes.icon}>
+      <a href={link}>
+        <img src={icons} alt="" />
+      </a>
+    </li>
+  );
 };
 
 const Social = ({ data }) => {
   const classes = useStyles();
+
+  console.log(data);
   return (
     <div className={classes.social}>
       <ul className={classes.icons}>

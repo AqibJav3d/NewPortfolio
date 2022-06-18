@@ -1,11 +1,11 @@
 import React from "react";
 // import { useStyles } from "./Styles";
 import { makeStyles } from "@material-ui/core";
-const Unit = ({ text, icon }) => {
+const Unit = ({ text, Icons }) => {
   const classes = useStyles();
   return (
     <div className={classes.card}>
-      <icon icon={icon} />
+      {Icons}
       <h5>{text}</h5>
     </div>
   );
@@ -13,6 +13,7 @@ const Unit = ({ text, icon }) => {
 
 export const Cards = ({ data }) => {
   const classes = useStyles();
+  console.log(data);
   return (
     <div className={classes.cards}>
       {data.map((item, i) => (

@@ -1,35 +1,35 @@
 import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
 export const card = [
   {
-    icons: FiGithub,
+    Icons: <FiGithub />,
     text: "Github",
   },
   {
-    icons: FiInstagram,
+    Icons: <FiInstagram />,
     text: "instagram",
   },
   {
-    icons: FiLinkedin,
+    Icons: <FiLinkedin />,
     text: "LinkedIn",
   },
   {
-    icons: FiTwitter,
+    Icons: <FiTwitter />,
     text: "Twitter",
   },
   {
-    icons: FiGithub,
+    Icons: <FiGithub />,
     text: "Github",
   },
   {
-    icons: FiInstagram,
+    Icons: <FiInstagram />,
     text: "instagram",
   },
   {
-    icon: FiLinkedin,
+    Icons: <FiLinkedin />,
     text: "LinkedIn",
   },
   {
-    icons: FiTwitter,
+    Icons: <FiTwitter />,
     text: "Twitter",
   },
 ];
