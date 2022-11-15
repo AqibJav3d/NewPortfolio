@@ -7,6 +7,7 @@ import Home from "../Pages/Home";
 import Portfolio from "../Pages/Portfolio";
 import Resume from "../Pages/Resume";
 import Skills from "../Pages/Skills";
+import ContactUs from "../Pages/ContactUs";
 const RouterComponent = () => {
   return (
     <>
@@ -23,6 +24,8 @@ const RouterComponent = () => {
           <Route path="/resume" element={<Resume />} />
 
           <Route path="/portfolio" element={<Portfolio />} />
+
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Router>
