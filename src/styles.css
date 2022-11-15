@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: dosis;
+}
+
+body {
+    margin: 0;
+}
+
+.hero nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 25px 90px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 25px;
+}
+
+nav span {
+    color: #04a704;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 92px;
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+nav ul .anker a {
+    color: #a9dda9;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li img {
+    height: 28px;
+}
+
+.main-container {
+    background: url(../assects/imgs/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-color:green
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 22vh 110px;
+}
+
+.content-box .card-1 {
+    width: 20%;
+}
+
+.card-1 h1 span {
+    color: #04a704;
+}
+
+.content-box .card-1 p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.card-1 .icon img {
+    height: 40px;
+}
+
+.card-2 {
+    width: 13%;
+}
+
+.anker-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-2 .left {
+    width: 5%;
+}
+
+.card-2 .right {
+    width: 5%;
+}
+
+.card-2 a {
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.card-3 .part {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+}
+
+.card-3 .part img {
+    height: 10vh;
+    width: 70%;
+}
+
+.card-3 .part p {
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize
+}
+
+.card-3 .part h6 {
+    margin: 0;
+}
+
+.card-4 ul {
+    padding: 0;
+}
+
+.card-4 ul li {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.card-4 ul li a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card-4 ul li span {
+    font-weight: 600;
+}
+
+footer {
+    background: transparent;
+    width: 84%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    font-weight: 800;
+}
+
+footer .right-content {
+    width: 50%;
+}
+
+footer .right-content ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+}
+
+footer .right-content li {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+footer .right-content li a {
+    text-decoration: none;
+}
